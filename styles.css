@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7fafc; /* Light gray background */
+    padding: 20px;
+    min-width: 300px; /* Minimum width */
+    max-width: 800px; /* Maximum width */
+    min-height: 200px; /* Minimum height */
+    max-height: 600px; /* Maximum height */
+    overflow: auto; /* Allow scrolling if content overflows */
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer {
+    font-size: 3rem; /* Large font size for timer */
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white; /* White background for timer */
+    border: 1px solid #e2e8f0; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+}
+
+.button {
+    padding: 10px 20px;
+    margin-bottom: 10px; /* Space between buttons */
+    border: none;
+    border-radius: 5px; /* Rounded corners for buttons */
+    color: white;
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.deep {
+    background-color: #4299e1; /* Blue color */
+}
+
+.rest {
+    background-color: #48bb78; /* Green color */
+}
+
+.reset {
+    background-color: #f56565; /* Red color */
+}
+
+.button:hover {
+    opacity: 0.9; /* Slightly transparent on hover */
+}
+
+
+
+.container {
+    padding: 20px;
+}
